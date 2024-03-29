@@ -1,0 +1,24 @@
+.similar_job_card {
+  width: 30%;
+  margin: 10px;
+}
+
+.similar_job_location_section {
+  width: 60%;
+}
+
+.sj_space {
+  margin-right: 10px;
+}
+
+.sj_description {
+  font-size: 130%;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+  .similar_job_card {
+    width: 100%;
+    margin: 10px;
+  }
+}

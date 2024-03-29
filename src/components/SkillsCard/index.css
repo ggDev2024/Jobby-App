@@ -1,0 +1,22 @@
+.skills_item_container {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  height: 30%;
+  width: 30%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 120%;
+}
+
+.skills_image {
+  height: 90%;
+  width: 50px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .skills_item_container {
+    width: 40%;
+  }
+}

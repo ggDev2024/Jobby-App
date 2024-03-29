@@ -1,0 +1,84 @@
+.test_heading {
+  color: #ffffff;
+}
+
+.filter_container {
+  width: 30%;
+  padding: 20px;
+  font-family: 'roboto';
+}
+
+.profile_container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: 100% 100%;
+  padding: 10%;
+}
+
+.profile_heading {
+  color: #6366f1;
+  font-size: 120%;
+}
+
+.profile_description {
+  color: #475569;
+  font-weight: 500;
+  font-size: 90%;
+}
+
+.line_partition {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.f_options_heading {
+  color: #ffffff;
+  font-size: 120%;
+}
+
+.filter_options_container {
+  color: #ffffff;
+  display: flex;
+  width: 80%;
+  margin: 10px;
+  font-family: 'roboto';
+}
+
+.filter_options_container2 {
+  color: #ffffff;
+  display: flex;
+  width: 100%;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_failure_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.btn_retry {
+  background-color: #4f46e5;
+  color: #ffffff;
+  padding: 5%;
+  width: 30%;
+  border: none;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .filter_options_container {
+    width: 80%;
+  }
+
+  .filter_container {
+    width: 100%;
+  }
+}
