@@ -110,6 +110,7 @@ class Jobs extends Component {
     ) : (
       <div className="no_jobs_container">
         <img
+          className="no_jobs_img"
           src="https://assets.ccbp.in/frontend/react-js/no-jobs-img.png"
           alt="no jobs"
         />
@@ -125,6 +126,7 @@ class Jobs extends Component {
     return (
       <div className="failure_container">
         <img
+          className="failure_view_img"
           src="https://assets.ccbp.in/frontend/react-js/failure-img.png"
           alt="failure view"
         />

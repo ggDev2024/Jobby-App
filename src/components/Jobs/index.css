@@ -67,6 +67,14 @@
 .failure_container {
   color: #ffffff;
   text-align: center;
+  border: solid red;
+  height: 100%;
+  width: 100%;
+}
+
+.failure_view_img {
+  height: 100%;
+  width: 100%;
 }
 
 .btn_failure {
@@ -79,10 +87,15 @@
 }
 
 .no_jobs_container {
-  height: 100vh;
-  width: 70vw;
+  height: 100%;
+  width: 100%;
   text-align: center;
   color: #ffffff;
+}
+
+.no_jobs_img {
+  height: 100%;
+  width: 100%;
 }
 
 .clear_search_button {
